@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "elisecom82-agentplat_jd459"
+name = "elisecom82-agent_termination_condition_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出Agent 编排平台工程师·智能体的任务终止条件的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://elisecom82.github.io"
-Repository = "https://github.com/elisecom82/agentplat_jd459"
-Issues = "https://github.com/elisecom82/agentplat_jd459/issues"
+Repository = "https://github.com/elisecom82/agent_termination_condition_coverage_map"
+Issues = "https://github.com/elisecom82/agent_termination_condition_coverage_map/issues"
 
 [project.scripts]
-agentplat_jd459 = "agentplat_jd459:main"
+agent_termination_condition_coverage_map = "agent_termination_condition_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["agentplat_jd459"]
+py-modules = ["agent_termination_condition_coverage_map"]
